@@ -28,6 +28,9 @@ are developed.
 
 How do the diagrams help you visualize the branch structure?
 
+They help to show the relationships between the master and the branches, to see
+where the branches started and the commits that they contain.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
