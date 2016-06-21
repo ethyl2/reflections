@@ -34,5 +34,13 @@ where the branches started and the commits that they contain.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Git merges combines the second branch into the first one, and a new commit for the
+first branch (the one that's checked out). According to the course content, the
+way git auto-merges is by keeping the lines that are in common with both, taking
+out lines that appeared in the parent file but not in one of the new versions of
+the file, and adding new lines that did not appear in the parent file but are in
+one of the new files. We represent it in the diagram to show how the branches come
+together as a result of the merge.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
