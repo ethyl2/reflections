@@ -44,3 +44,9 @@ together as a result of the merge.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+Pro of automatic merging is that it is fast and easy -- you don't have to make
+any judgment calls. The con is that you have no input into how the commits are
+merged. Pro of manual merging is that you can say exactly which lines you want to
+include in your new commit. The con is that you might make a mistake or two because
+you are a human.
