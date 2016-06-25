@@ -42,7 +42,18 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I use Google docs quite often to collaborate with others, mostly not in
+    coding situations, though. I appreciate being able to easily share documents
+    with other people, and the ability to update the documents and instantly
+    have other people see the updated versions. Without git or GitHub, I would
+    probably use Google docs. If that wasn't available, email or thumb drives
+    would have to do.
+
+    The only easier thing that I can think of, with Google docs versus git and
+    GitHub, is that everything on Google docs is visual, with menus and
+    graphics, while git especially requires a terminal and remembering what
+    commands to type. However, git and GitHub are better tools for code
+    collaboration, with features such as forking, cloning, pushing, and merging.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
