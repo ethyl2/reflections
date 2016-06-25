@@ -22,12 +22,22 @@ use one instead of another?
     and pulls between the two projects (and other forks)."
     (https://stackoverflow.com/questions/7057194/
     what-is-the-difference-between-forking-and-cloning-on-github)
-    You can create branches within a repository. 
+    You can create branches within a repository.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    You can update just the local copy of the remote branch, leaving your actual
+    local version alone, using git fetch. Then you can use git log and git diff
+    to see what changes were made. Later, you can merge. Here's one situation
+    example from cbuckley: "If I am about to go without Internet
+    access for a while, for example to work on a plane, I can update my local
+    copy before I leave. I can do this even if I'm not ready to merge those
+    changes into my own branches yet.  Then if I want, I can perform the merge
+    while offline, or I need to know what the remote version is at some point,
+    I have an easy way to access it."
+    (https://github.com/cbuckey-uda/reflections/blob/master/
+    lesson_3_reflections.txt)
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
